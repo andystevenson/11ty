@@ -1,0 +1,34 @@
+{
+  "name": "@andystevenson/11ty",
+  "version": "0.1.2",
+  "type": "commonjs",
+  "main": "index.cjs",
+  "exports": "./index.cjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andystevenson/11ty.git"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "config",
+    "SSG",
+    "javascript",
+    "shortcodes"
+  ],
+  "author": "andystevenson@mac.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andystevenson/11ty/issues"
+  },
+  "homepage": "https://github.com/andystevenson/11ty#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
