@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
    * To ensure this directory is discoverable by Vite, we copy it to our 11ty build output like so:
    */
 
-  eleventyConfig.addPassthroughCopy('public')
+  // eleventyConfig.addPassthroughCopy('public')
   eleventyConfig.addWatchTarget('./src/sass/')
 
   // configure global data
